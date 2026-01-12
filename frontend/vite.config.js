@@ -10,6 +10,7 @@ export default defineConfig({
     // HMR Port must be explicit for the proxy to work correctly
     hmr: {
       clientPort: 80 
-    }
+    },
+    watch: { usePolling: true }
   }
 })

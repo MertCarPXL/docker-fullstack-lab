@@ -9,9 +9,9 @@ on:
   workflow_dispatch:
 
 env:
-  DOCKERHUB_USERNAME: yourusername
-  BACKEND_IMAGE: yourusername/lab-backend
-  WEB_IMAGE: yourusername/lab-web
+  DOCKERHUB_USERNAME: mert148
+  BACKEND_IMAGE: mert148/lab-backend
+  WEB_IMAGE: mert148/lab-web
 
 jobs:
   build-and-push:
